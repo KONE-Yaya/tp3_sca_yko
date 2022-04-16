@@ -1,0 +1,4 @@
+172.31.0.1 - - [16/Apr/2022:04:15:23 +0000] "GET /api/frontend HTTP/1.1" 404 275 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"
+172.31.0.1 - - [16/Apr/2022:04:15:23 +0000] "GET /favicon.ico HTTP/1.1" 404 555 "http://localhost:8080/api/frontend" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"
+172.31.0.1 - - [16/Apr/2022:04:15:32 +0000] "GET /api/frontend/ HTTP/1.1" 200 107 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"
+172.31.0.1 - - [16/Apr/2022:04:15:44 +0000] "GET /api/backend/ HTTP/1.1" 200 87 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36"

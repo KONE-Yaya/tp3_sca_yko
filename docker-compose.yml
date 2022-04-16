@@ -1,0 +1,63 @@
+version: "3"
+services:
+  frontend:
+    image: koneyayangolo/frontback-tp-sca:yko-frontend
+    deploy:
+      replicas: 2
+      restart_policy: 
+        condition: on-failure 
+        delay: 10s 
+        max_attempts: 3 
+        window: 120s
+      resources:
+          limits:
+            cpus: "0.50"
+            memory: 512M
+    ports:
+      - 9990
+    healthcheck:
+      test: curl --fail http://localhost:9990/api/frontend/ || exit 1
+      interval: 180s
+      retries: 3
+      start_period: 20s
+      timeout: 10s
+    depends_on:
+      - backend
+    links:
+      - backend
+  backend:
+    image: koneyayangolo/frontback-tp-sca:yko-backend
+    deploy:
+      replicas: 2
+      restart_policy: 
+        condition: on-failure 
+        delay: 10s 
+        max_attempts: 3 
+        window: 120s
+      resources:
+          limits:
+            cpus: "0.50"
+            memory: 512M
+    ports:
+      - 9991
+    healthcheck:
+      test: curl --fail http://localhost:9991/api/backend/ || exit 1
+      interval: 120s
+      retries: 3
+      start_period: 20s
+      timeout: 10s
+    volumes:
+      - ./logs/backend:/backend/logs
+  nginx:
+    image: nginx
+    ports:
+      - "8080:80"
+    depends_on:
+      - frontend
+      - backend
+    links:
+      - frontend
+      - backend
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./logs/frontend:/var/log/nginx

@@ -1,0 +1,267 @@
+2022-04-16 01:00:42.097  INFO 1 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.6)
+
+
+2022-04-16 01:00:42.225  INFO 1 --- [main] com.episen.backend.BackendApplication    : Starting BackendApplication v1.0.0-SNAPSHOT using Java 11.0.9 on 36d688fb038c with PID 1 (/backend/backend.jar started by root in /backend)
+2022-04-16 01:00:42.229  INFO 1 --- [main] com.episen.backend.BackendApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-04-16 01:00:43.703  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9991 (http)
+2022-04-16 01:00:43.726  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-16 01:00:43.728  INFO 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-16 01:00:43.848  INFO 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-16 01:00:43.849  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1496 ms
+2022-04-16 01:00:44.895  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9991 (http) with context path ''
+2022-04-16 01:00:44.929  INFO 1 --- [main] com.episen.backend.BackendApplication    : Started BackendApplication in 3.627 seconds (JVM running for 4.342)
+2022-04-16 01:01:25.827  INFO 1 --- [http-nio-9991-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 01:01:25.832  INFO 1 --- [http-nio-9991-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-16 01:01:25.834  INFO 1 --- [http-nio-9991-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-04-16 01:01:25.866  INFO 1 --- [http-nio-9991-exec-1] c.e.b.controllers.BackendApiController   : BACKEND API: Beginning of treatment...
+2022-04-16 01:01:25.873  INFO 1 --- [http-nio-9991-exec-1] c.e.b.controllers.BackendApiController   : BACKEND API: End of treatment.
+2022-04-16 01:25:20.214  INFO 1 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.6)
+
+
+2022-04-16 01:25:20.307  INFO 1 --- [main] com.episen.backend.BackendApplication    : Starting BackendApplication v1.0.0-SNAPSHOT using Java 11.0.9 on c637b0acd064 with PID 1 (/backend/backend.jar started by root in /backend)
+2022-04-16 01:25:20.309  INFO 1 --- [main] com.episen.backend.BackendApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-04-16 01:25:35.151  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9991 (http)
+2022-04-16 01:25:35.175  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-16 01:25:35.176  INFO 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-16 01:25:35.275  INFO 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-16 01:25:35.277  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 14861 ms
+2022-04-16 01:25:36.209  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9991 (http) with context path ''
+2022-04-16 01:25:36.237  INFO 1 --- [main] com.episen.backend.BackendApplication    : Started BackendApplication in 17.115 seconds (JVM running for 17.669)
+2022-04-16 01:25:56.693  INFO 1 --- [http-nio-9991-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 01:25:56.697  INFO 1 --- [http-nio-9991-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-16 01:25:56.700  INFO 1 --- [http-nio-9991-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-04-16 01:25:56.732  INFO 1 --- [http-nio-9991-exec-1] c.e.b.controllers.BackendApiController   : BACKEND API: Beginning of treatment...
+2022-04-16 01:25:56.739  INFO 1 --- [http-nio-9991-exec-1] c.e.b.controllers.BackendApiController   : BACKEND API: End of treatment.
+2022-04-16 01:53:11.395  INFO 1 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.6)
+
+
+2022-04-16 01:53:11.536  INFO 1 --- [main] com.episen.backend.BackendApplication    : Starting BackendApplication v1.0.0-SNAPSHOT using Java 11.0.9 on 762ef42d4cda with PID 1 (/backend/backend.jar started by root in /backend)
+2022-04-16 01:53:11.538  INFO 1 --- [main] com.episen.backend.BackendApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-04-16 01:53:12.830  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9991 (http)
+2022-04-16 01:53:12.850  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-16 01:53:12.852  INFO 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-16 01:53:12.988  INFO 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-16 01:53:12.989  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1351 ms
+2022-04-16 01:53:13.620  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9991 (http) with context path ''
+2022-04-16 01:53:13.642  INFO 1 --- [main] com.episen.backend.BackendApplication    : Started BackendApplication in 3.151 seconds (JVM running for 3.85)
+2022-04-16 01:58:54.608  INFO 1 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.6)
+
+
+2022-04-16 01:58:54.693  INFO 1 --- [main] com.episen.backend.BackendApplication    : Starting BackendApplication v1.0.0-SNAPSHOT using Java 11.0.9 on 385fe1b42a70 with PID 1 (/backend/backend.jar started by root in /backend)
+2022-04-16 01:58:54.695  INFO 1 --- [main] com.episen.backend.BackendApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-04-16 01:58:55.774  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9991 (http)
+2022-04-16 01:58:55.788  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-16 01:58:55.789  INFO 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-16 01:58:55.867  INFO 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-16 01:58:55.868  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1098 ms
+2022-04-16 01:58:57.046  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9991 (http) with context path ''
+2022-04-16 01:58:57.059  INFO 1 --- [main] com.episen.backend.BackendApplication    : Started BackendApplication in 2.969 seconds (JVM running for 3.459)
+2022-04-16 02:07:50.072  INFO 1 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.6)
+
+
+2022-04-16 02:07:50.193  INFO 1 --- [main] com.episen.backend.BackendApplication    : Starting BackendApplication v1.0.0-SNAPSHOT using Java 11.0.9 on 6145f0769169 with PID 1 (/backend/backend.jar started by root in /backend)
+2022-04-16 02:07:50.197  INFO 1 --- [main] com.episen.backend.BackendApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-04-16 02:07:51.422  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9991 (http)
+2022-04-16 02:07:51.441  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-16 02:07:51.442  INFO 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-16 02:07:51.524  INFO 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-16 02:07:51.525  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1215 ms
+2022-04-16 02:07:51.944  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9991 (http) with context path ''
+2022-04-16 02:07:51.956  INFO 1 --- [main] com.episen.backend.BackendApplication    : Started BackendApplication in 2.575 seconds (JVM running for 3.281)
+2022-04-16 02:22:47.131  INFO 1 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.6)
+
+
+2022-04-16 02:22:47.235  INFO 1 --- [main] com.episen.backend.BackendApplication    : Starting BackendApplication v1.0.0-SNAPSHOT using Java 11.0.9 on b750ce1a7548 with PID 1 (/backend/backend.jar started by root in /backend)
+2022-04-16 02:22:47.238  INFO 1 --- [main] com.episen.backend.BackendApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-04-16 02:22:48.453  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9991 (http)
+2022-04-16 02:22:48.472  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-16 02:22:48.473  INFO 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-16 02:22:48.566  INFO 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-16 02:22:48.567  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1242 ms
+2022-04-16 02:22:48.978  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9991 (http) with context path ''
+2022-04-16 02:22:48.990  INFO 1 --- [main] com.episen.backend.BackendApplication    : Started BackendApplication in 2.427 seconds (JVM running for 3.057)
+2022-04-16 02:31:47.713  INFO 1 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.6)
+
+
+2022-04-16 02:31:47.828  INFO 1 --- [main] com.episen.backend.BackendApplication    : Starting BackendApplication v1.0.0-SNAPSHOT using Java 11.0.9 on f7502785009d with PID 1 (/backend/backend.jar started by root in /backend)
+2022-04-16 02:31:47.830  INFO 1 --- [main] com.episen.backend.BackendApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-04-16 02:31:48.966  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9991 (http)
+2022-04-16 02:31:48.984  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-16 02:31:48.985  INFO 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-16 02:31:49.070  INFO 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-16 02:31:49.071  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1158 ms
+2022-04-16 02:31:49.499  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9991 (http) with context path ''
+2022-04-16 02:31:49.513  INFO 1 --- [main] com.episen.backend.BackendApplication    : Started BackendApplication in 2.562 seconds (JVM running for 3.193)
+2022-04-16 03:11:42.613  INFO 1 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.6)
+
+
+2022-04-16 03:11:42.775  INFO 1 --- [main] com.episen.backend.BackendApplication    : Starting BackendApplication v1.0.0-SNAPSHOT using Java 11.0.9 on fb6a0d0624d6 with PID 1 (/backend/backend.jar started by root in /backend)
+2022-04-16 03:11:42.779  INFO 1 --- [main] com.episen.backend.BackendApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-04-16 03:11:43.193  INFO 1 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.6)
+
+
+2022-04-16 03:11:43.359  INFO 1 --- [main] com.episen.backend.BackendApplication    : Starting BackendApplication v1.0.0-SNAPSHOT using Java 11.0.9 on d99791f60d21 with PID 1 (/backend/backend.jar started by root in /backend)
+2022-04-16 03:11:43.365  INFO 1 --- [main] com.episen.backend.BackendApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-04-16 03:11:48.417  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9991 (http)
+2022-04-16 03:11:49.436  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-16 03:11:49.438  INFO 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-16 03:11:49.551  INFO 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-16 03:11:49.552  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6661 ms
+2022-04-16 03:11:50.163  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9991 (http)
+2022-04-16 03:11:50.182  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9991 (http) with context path ''
+2022-04-16 03:11:50.186  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-16 03:11:50.187  INFO 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-16 03:11:50.201  INFO 1 --- [main] com.episen.backend.BackendApplication    : Started BackendApplication in 8.737 seconds (JVM running for 9.436)
+2022-04-16 03:11:50.276  INFO 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-16 03:11:50.278  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 6730 ms
+2022-04-16 03:11:50.699  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9991 (http) with context path ''
+2022-04-16 03:11:50.715  INFO 1 --- [main] com.episen.backend.BackendApplication    : Started BackendApplication in 8.703 seconds (JVM running for 9.538)
+2022-04-16 04:13:45.659  INFO 1 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.6)
+
+
+2022-04-16 04:13:45.830  INFO 1 --- [main] com.episen.backend.BackendApplication    : Starting BackendApplication v1.0.0-SNAPSHOT using Java 11.0.9 on 4d4fd3434209 with PID 1 (/backend/backend.jar started by root in /backend)
+2022-04-16 04:13:45.834  INFO 1 --- [main] com.episen.backend.BackendApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-04-16 04:13:56.341  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9991 (http)
+2022-04-16 04:13:56.393  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-16 04:13:56.394  INFO 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-16 04:13:56.577  INFO 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-16 04:13:58.257  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 12242 ms
+2022-04-16 04:13:58.497  INFO 1 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.6)
+
+
+2022-04-16 04:13:58.671  INFO 1 --- [main] com.episen.backend.BackendApplication    : Starting BackendApplication v1.0.0-SNAPSHOT using Java 11.0.9 on 056341e66123 with PID 1 (/backend/backend.jar started by root in /backend)
+2022-04-16 04:13:58.682  INFO 1 --- [main] com.episen.backend.BackendApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-04-16 04:13:59.547  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9991 (http) with context path ''
+2022-04-16 04:13:59.567  INFO 1 --- [main] com.episen.backend.BackendApplication    : Started BackendApplication in 14.674 seconds (JVM running for 15.213)
+2022-04-16 04:14:03.439  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9991 (http)
+2022-04-16 04:14:03.497  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-16 04:14:03.499  INFO 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-16 04:14:03.733  INFO 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-16 04:14:03.740  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4446 ms
+2022-04-16 04:14:05.651  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9991 (http) with context path ''
+2022-04-16 04:14:05.693  INFO 1 --- [main] com.episen.backend.BackendApplication    : Started BackendApplication in 19.446 seconds (JVM running for 20.419)
+2022-04-16 04:15:32.727  INFO 1 --- [http-nio-9991-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 04:15:32.732  INFO 1 --- [http-nio-9991-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-16 04:15:32.734  INFO 1 --- [http-nio-9991-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-04-16 04:15:32.760  INFO 1 --- [http-nio-9991-exec-1] c.e.b.controllers.BackendApiController   : BACKEND API: Beginning of treatment...
+2022-04-16 04:15:32.764  INFO 1 --- [http-nio-9991-exec-1] c.e.b.controllers.BackendApiController   : BACKEND API: End of treatment.
+2022-04-16 04:15:44.378  INFO 1 --- [http-nio-9991-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-04-16 04:15:44.381  INFO 1 --- [http-nio-9991-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-04-16 04:15:44.384  INFO 1 --- [http-nio-9991-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-04-16 04:15:44.427  INFO 1 --- [http-nio-9991-exec-1] c.e.b.controllers.BackendApiController   : BACKEND API: Beginning of treatment...
+2022-04-16 04:15:44.433  INFO 1 --- [http-nio-9991-exec-1] c.e.b.controllers.BackendApiController   : BACKEND API: End of treatment.
+2022-04-16 05:16:38.230  INFO 1 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.6)
+
+
+2022-04-16 05:16:38.240  INFO 1 --- [main] o.s.boot.SpringApplication               : 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.6.6)
+
+
+2022-04-16 05:16:38.402  INFO 1 --- [main] com.episen.backend.BackendApplication    : Starting BackendApplication v1.0.0-SNAPSHOT using Java 11.0.9 on d38dd4ccd787 with PID 1 (/backend/backend.jar started by root in /backend)
+2022-04-16 05:16:38.405  INFO 1 --- [main] com.episen.backend.BackendApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-04-16 05:16:38.476  INFO 1 --- [main] com.episen.backend.BackendApplication    : Starting BackendApplication v1.0.0-SNAPSHOT using Java 11.0.9 on 34e193fe89e4 with PID 1 (/backend/backend.jar started by root in /backend)
+2022-04-16 05:16:38.482  INFO 1 --- [main] com.episen.backend.BackendApplication    : No active profile set, falling back to 1 default profile: "default"
+2022-04-16 05:16:40.907  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9991 (http)
+2022-04-16 05:16:40.971  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-16 05:16:40.974  INFO 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-16 05:16:41.057  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9991 (http)
+2022-04-16 05:16:41.113  INFO 1 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-04-16 05:16:41.121  INFO 1 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-04-16 05:16:41.206  INFO 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-16 05:16:41.210  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2621 ms
+2022-04-16 05:16:41.438  INFO 1 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-04-16 05:16:41.446  INFO 1 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2803 ms
+2022-04-16 05:16:42.708  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9991 (http) with context path ''
+2022-04-16 05:16:42.794  INFO 1 --- [main] com.episen.backend.BackendApplication    : Started BackendApplication in 5.636 seconds (JVM running for 6.713)
+2022-04-16 05:16:42.969  INFO 1 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9991 (http) with context path ''
+2022-04-16 05:16:43.004  INFO 1 --- [main] com.episen.backend.BackendApplication    : Started BackendApplication in 5.876 seconds (JVM running for 6.918)

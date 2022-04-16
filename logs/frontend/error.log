@@ -1,0 +1,1 @@
+2022/04/16 04:15:23 [error] 32#32: *2 open() "/etc/nginx/html/favicon.ico" failed (2: No such file or directory), client: 172.31.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8080", referrer: "http://localhost:8080/api/frontend"
