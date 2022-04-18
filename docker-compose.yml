@@ -52,6 +52,16 @@ services:
     image: nginx
     ports:
       - "8080:80"
+    deploy:
+      restart_policy: 
+        condition: on-failure 
+        delay: 10s 
+        max_attempts: 3 
+        window: 120s
+      resources:
+          limits:
+            cpus: "0.75"
+            memory: 1024M
     depends_on:
       - frontend
       - backend
